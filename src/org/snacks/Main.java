@@ -16,8 +16,7 @@ public class Main {
 
     RegistroStudenti registroStudenti = new RegistroStudenti();
 
-    registroStudenti.addStudent("Davide", "Morisco", 27);
-    registroStudenti.addStudent("Kuke", "Marslev", 24);
+    registroStudenti.addStudent(Giovanni);
 
     registroStudenti.getStudentList();
 

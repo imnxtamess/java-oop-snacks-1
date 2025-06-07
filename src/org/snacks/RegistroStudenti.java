@@ -14,9 +14,9 @@ public class RegistroStudenti {
 
   // , setters
 
-  public void addStudent(String name, String surname, int age) {
+  public void addStudent(Studente studente) {
     if (studentNumber < students.length) {
-      students[studentNumber] = new Studente(name, surname, age);
+      students[studentNumber] = studente;
       studentNumber++;
     } else {
       System.out.println("The student list is full");
